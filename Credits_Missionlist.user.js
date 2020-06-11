@@ -86,13 +86,19 @@
                 for(var ic2 = 0; ic2 < childs.length; ic2++)
                 {
                     if(childs[ic2].className != 'missionCredits') continue;
-                    var mission2;
-                    mission2 = requirements.filter(e => e.id == parseInt(e.mtid))[0] || 'q';
-                    if(mission2 = 'q')
+
+                    $('.missionCredits').remove()
+                    var mission_type_id2 = Missions[i].getAttribute('mission_type_id');
+
+                    if(mission_type_id2 == 'null') continue;
+                    
+                    let mission2 = requirements.filter(e => e.id == parseInt(mission_type_id2))[0];
+                    if(mission2 == undefined)
                     {
-                        requirements = await getRequirements();
-                        mission2 = requirements.filter(e => e.id == parseInt(e.mtid))[0] || 'q';
+                    requirements = await getRequirements();
+                    mission2 = requirements.filter(e => e.id == parseInt(mission_type_id2))[0];
                     }
+
                     //var credits = requirements[parseInt(missionId)].average_credits || 0;
                     var credits = mission2.average_credits || 0;
 
@@ -107,10 +113,12 @@
                     else label = 'label-primary'
 
 
-                    var child = childs[ic2];
-                    Missions[i].firstElementChild.firstElementChild.removeChild(child);
-                    child.innerHTML = `<span class="label ` + label + `"> <span id='html_str'>` + html_str + `</span></span>`
-                    Missions[i].firstElementChild.firstElementChild.appendChild(child);
+                    var div_elem = document.createElement('h4');
+
+                    div_elem.innerHTML = `<center><span class="label ` + label + `"> <span id='html_str'>` + html_str + `</span></span><center>`;
+                    div_elem.setAttribute("class", "missionCredits");
+                    div_elem.setAttribute("id", "missionCredits_" + Missions[i].getAttribute('mission_id'));
+                    Missions[i].firstElementChild.firstElementChild.appendChild(div_elem);
                 }
             }
             else //create element
@@ -138,12 +146,12 @@
                 else if (credits2 >= 4500) label2 = 'label-success'
                 else label2 = 'label-primary'
 
-                var div_elem = document.createElement('div');
+                var div_elem2 = document.createElement('h4');
                 
-                div_elem.innerHTML = `<span class="label ` + label2 + `"> <span id='html_str'>` + html_str2 + `</span></span>`;
-                div_elem.setAttribute("class", "missionCredits");
-                div_elem.setAttribute("id", "missionCredits_" + Missions[i].getAttribute('mission_id'));
-                Missions[i].firstElementChild.firstElementChild.appendChild(div_elem);
+                div_elem2.innerHTML = `<center><span class="label ` + label2 + `"> <span id='html_str'>` + html_str2 + `</span></span><center>`;
+                div_elem2.setAttribute("class", "missionCredits");
+                div_elem2.setAttribute("id", "missionCredits_" + Missions[i].getAttribute('mission_id'));
+                Missions[i].firstElementChild.firstElementChild.appendChild(div_elem2);
             }
         }
     }
@@ -198,7 +206,7 @@
             else label = 'label-primary'
 
             var div_elem = document.createElement('div');
-            div_elem.innerHTML = `<span class="label ` + label + `"> <span id='html_str'>` + html_str + `</span></span>`
+            div_elem.innerHTML = `<center><span class="label ` + label + `"> <span id='html_str'>` + html_str + `</span></span><center>`
 		    div_elem.setAttribute("class", "missionCredits");
             div_elem.setAttribute("id", "missionCredits_" + Missions[i].getAttribute('mission_id'));
 
