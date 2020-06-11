@@ -69,6 +69,9 @@
             var existing = false;
 
             if (e.id != Missions[i].getAttribute('mission_id')) continue;
+            let mission_type_id = Missions[i].getAttribute('mission_type_id');
+
+            if(mission_type_id == 'null') continue;
 
             // check if html element is actually existing
             for (var ic = 0; ic < childs.length; ic++)
@@ -79,6 +82,7 @@
                    break;
                 }
             }
+            
 
             // if it's existing but mtid is filled, we re create the element
             if(existing == true && e.mtid != undefined)
@@ -86,17 +90,12 @@
                 for(var ic2 = 0; ic2 < childs.length; ic2++)
                 {
                     if(childs[ic2].className != 'missionCredits') continue;
-
-                    $('.missionCredits').remove()
-                    var mission_type_id2 = Missions[i].getAttribute('mission_type_id');
-
-                    if(mission_type_id2 == 'null') continue;
                     
-                    let mission2 = requirements.filter(e => e.id == parseInt(mission_type_id2))[0];
+                    let mission2 = requirements.filter(e => e.id == parseInt(mission_type_id))[0];
                     if(mission2 == undefined)
                     {
                     requirements = await getRequirements();
-                    mission2 = requirements.filter(e => e.id == parseInt(mission_type_id2))[0];
+                    mission2 = requirements.filter(e => e.id == parseInt(mission_type_id))[0];
                     }
 
                     //var credits = requirements[parseInt(missionId)].average_credits || 0;
@@ -123,8 +122,6 @@
             }
             else //create element
             {
-                var mission_type_id = Missions[i].getAttribute('mission_type_id');
-
                 if(mission_type_id == 'null') continue;
 
                 let mission = requirements.filter(e => e.id == parseInt(mission_type_id))[0];
