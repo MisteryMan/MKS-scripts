@@ -1,22 +1,22 @@
-Beste spelers,
+Dear players,
 <br><br>
-Ik heb een aantal scripts gemaakt of aangepast. Deze wil ik graag met jullie delen, zodat jullie hier ook profijt van kunnen hebben.<br>
-Alle scripts heb ik samengevoegd tot 1 totaalscripts genaamd Scripts-MKS. 
+I have created and/or modified a few scripts. I'd like to share these scripts with you, so they can benefit you aswell.<br>
+All the scripts have been bundled into one package named "Scripts-MKS". 
 <br><br>
-<b>LET OP! Om het script te kunnen installeren is Tampermonkey nodig in je browser: <a href="https://www.tampermonkey.net/">Installeer Tamponkey</a> </b>
+<b>NOTE: To use these scripts, tampermonkey is required in your browser. <a href="https://www.tampermonkey.net/">Click here to install Tampermonkey</a> </b>
 <br><br>
-Indien er vragen, opmerkingen en/of verzoeken zijn kunnen jullie mij bereiken via <a href="https://www.meldkamerspel.com/messages/new?target=Jrh1997">een bericht in het spel</a>, <a href="https://forum.meldkamerspel.com/index.php/ConversationAdd/?userID=933">een bericht op het forum</a>, <a href="https://forum.meldkamerspel.com/index.php/Thread/2930-Losse-scripts-Jrh1997/?postID=21716#post21716"> in het topic op het forum</a> of <a href="https://github.com/JRH-1997/MKS-scripts/issues"> hier bij issues</a>. 
+Incase of questions, comments or requests you can contact me through <a href="https://www.meldkamerspel.com/messages/new?target=Jrh1997">a message in the dutch MKS</a>, <a href="https://forum.meldkamerspel.com/index.php/ConversationAdd/?userID=933">a direct message on the dutch forums</a>, <a href="https://forum.meldkamerspel.com/index.php/Thread/2930-Losse-scripts-Jrh1997/?postID=21716#post21716"> in the topic on the dutch forums</a> or <a href="https://github.com/JRH-1997/MKS-scripts/issues"> here on Github Issues</a>. 
 <br><br>
-Hopelijk hebben jullie er plezier van.
+I hope these scripts will bring a little more joy to your gaming experience.
 <br><br>
-Groet Jrh1997
+Greetings Jrh1997
 <br><br>
 
-<b><a href="https://github.com/JRH-1997/MKS-scripts/raw/master/Script-bundle/Scripts-MKS.user.js">Installeer hier het script</a></b>
+<b><a href="https://github.com/JRH-1997/MKS-scripts/raw/master/Script-bundle/Scripts-MKS.user.js">Click here to install the script package.</a></b>
 <br><br>
-<B>Laatste update Readme: 17-07-2020</b>
+<B>Last updated: Readme: 18-07-2020</b>
 
-<B>Auteursrecht:</b><br>
+<B>Royalty:</b><br>
 Op alle scripts rust het Nederlandse Auteursrecht. Scripts mogen niet zonder toestemming worden bewerkt of verder verspreidt. <br>
 Bij onderdelen waar het originele auteursrecht bij een derde rust, mogen deze niet zonder toestemming van deze derde worden bewerkt of verspreidt.
 Voor deze onderdelen is toestemming van de derden verkregen om deze te bewerken en te delen in mijn scripts. Ik zal u voor de betreffende specifieke delen dan ook doorverwijzen. 
