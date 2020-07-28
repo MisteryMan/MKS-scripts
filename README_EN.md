@@ -16,51 +16,51 @@ Greetings Jrh1997
 <br><br>
 <B>Last updated: Readme: 18-07-2020</b>
 
-<B>Royalty:</b><br>
-Op alle scripts rust het Nederlandse Auteursrecht. Scripts mogen niet zonder toestemming worden bewerkt of verder verspreidt. <br>
-Bij onderdelen waar het originele auteursrecht bij een derde rust, mogen deze niet zonder toestemming van deze derde worden bewerkt of verspreidt.
-Voor deze onderdelen is toestemming van de derden verkregen om deze te bewerken en te delen in mijn scripts. Ik zal u voor de betreffende specifieke delen dan ook doorverwijzen. 
+<B>LICENSING:</b><br>
+These scripts are owned by their respective owners. None of the scripts are permitted to be modifified or distributed without my explicit permission. <br>
+Any scripts belonging to different owners and not allowed to be modified or redistributed without the owners respective permission.
+I've personally obtained permission to redistribute these scripts. If you like to do so as well. I will refer you to the respective people.
 
 # Scripts-MKS
-Hieronder zal ik een korte uitleg geven over de verschillende onderdelen in het script. 
-Er zal bovenin de menubalk een extra knop komen waar alle functies in zijn opgenomen. 
+Below I will give a brief description of each component of the script. 
+Next to the personal menu a new menu will appear where you will find all the functions this script has to offer.
 # RemainingCredits: 
-<b>(Instelling: Credits > Totalen boven meldingenlijst)</b>
+<b>(Settings: Credits > Totals above missionlist)</b>
 <br>
-<b>(Met dank aan LennardTFD voor het originele Duitse basisscript. Ik heb toestemming om het te delen. )</b>
+<b>(Original by LennardFTD. Permission to redistribute.)</b>
 <br>
-Deze functie laat zien wat je meldingen in je meldingenlijst gemiddeld bij elkaar opleveren verdeeld in 3 categorieën. 
+This option shows the average earnings for your missions added up in three different categories.
 <br>
 ![RemainingCredits](AfbeeldingenScriptNL/RemainingCredits.png)
 <br>
-Op de afbeelding hierboven kan je zien hoe dit wordt weergegeven. De getallen staan voor de volgende categorieën van links naar rechts:
--	Eigen meldingen, inclusief besteld vervoer. 
--	Geplande inzetten (alleen in UK wordt deze niet weergegeven). 
--	Teammeldingen, inclusief teamevent.
--	Eindtotaal (optioneel, staat nog niet op de afbeelding)
+The image above shows how this is being displayed. The amounts shown are the following categories from left to right:
+-   Personal missions, including scheduled transport missions.
+-	Planned missions (Not displayed in the UK version)
+-   Alliance Missions, including alliance event missions.
+-	Total, previous three added together (Not shown in image yet).
 <br>
-Een alleen ambulance melding wordt voor 250 credits meegenomen, omdat dit het aantal credits is dat een patiënt zonder vervoer oplevert. Met meer patiënten, wel vervoer of MMT is de opbrengst dus hoger. 
+An "Ambulance Only" mission is added to the amounts for 250 credits each. This is because that is the amount for a ambulance only mission without transporting the patient. More patients, fly car or transporting a patients has higher earnings.
 <br>
 
 # Credits Missionlist: 
-<b>(Instelling: Credits > In meldingslijst als label/text (achter de naam))</b><br>
-<b>(Met dank aan ItsDreyter voor het originele Duitse basisscript. Ik heb toestemming om het te delen. )</b>
+<b>(Settings: Credits > In missionlist in the mission-header, as text or label)</b><br>
+<b>(Original by ItsDreyter. Permission obtained for redistribution )</b>
 <br>
-Deze functie geeft het gemiddeld aantal te verdienen credits weer bij de melding in de meldingenlijst. 
-Deze functie heb ik in 2 varianten: als gekleurd label of als tekst, daarnaast nog de variant achter de naam. Die werkt goed in combinatie met het script van MisteryKid waar de volledige meldingenlijst <br>een andere opmaak krijgt. (Nog niet publiekelijk beschikbaar)
+This options added the average earnings for each mission in the missionlist.
+It comes in two variations: Colored label or plain text, including the variation for behind the mission name. This variation works exceptionally well with a missionList cosmetics script by MisteryKid. ( Not yet publically available ).
 
-### Variant Label:
-Hieronder zie je een voorbeeld van een melding waar een gekleurd label in staat:
+### Variation Label:
+In the image below you can see an example of a mission with the colored label:
 ![Missionlistlabel](AfbeeldingenScriptNL/Missionlistlabel.png)
 <br>
-De Labels zijn er in 4 kleuren, die de grootte van de melding aangeven:
-- Voor meldingen met alleen ambulances: ![LabelAmbulance](AfbeeldingenScriptNL/LabelAmbulance.png)
-- Voor meldingen t/m 4499 credits: ![LabelBlauw](AfbeeldingenScriptNL/LabelBlauw.png)
-- Voor meldingen vanaf 4500 t/m 7999 credits: ![LabelGroen](AfbeeldingenScriptNL/LabelGroen.png)
-- Voor meldingen van 8000 credits en hoger: ![LabelRood](AfbeeldingenScriptNL/LabelRood.png)
+The labels come in four different colors, representing the average earned amount per mission:
+- Ambulance Only missions: ![LabelAmbulance](AfbeeldingenScriptNL/LabelAmbulance.png)
+- Missions up to 4499 credits: ![LabelBlauw](AfbeeldingenScriptNL/LabelBlauw.png)
+- Missions from 4500 up to 7999 credits: ![LabelGroen](AfbeeldingenScriptNL/LabelGroen.png)
+- Missions from 8000 credits or higher: ![LabelRood](AfbeeldingenScriptNL/LabelRood.png)
 
-### Variant Tekst:
-Hieronder zie je een voorbeeld van een melding waar credits als tekst staan en een voorbeeld van een melding waar alleen een ambulance nodig is. 
+### Variantion Text:
+Below an example of a mission with text average credit earnings and an example for Ambulance Only missions.
 <br>
 ![MissionlistText](AfbeeldingenScriptNL/MissionlistText.png)
 <br>
@@ -82,21 +82,22 @@ De Labels zijn er in 4 kleuren, die de grootte van de melding aangeven:
 <br>
 
 # Label Alliance
-<b>(Instelling: Team Label)</b>
+<b>(Settings: Alliance Label)</b>
 <br>
-Deze functie toont een label als de melding groot genoeg is om met je team te mogen delen. Er zijn 2 versies: 1 voor in de missionheader en 1 voor de missionlist. 
+This feature shows a label if the mission is large enough to share with your team. There are two versions: one for the mission header and one for the mission list.
 <br><br>
-Zo ziet het label er uit: ![LabelTeam](/AfbeeldingenScriptNL/LabelTeam.png)
+This is what the label looks like: ![LabelTeam](/AfbeeldingenScriptNL/LabelTeam.png)
 <br><br>
-Het aantal credtis vanaf wanneer dit label getoond wordt is eenvouding aan te passen in het script. Het is standaard vanaf 3000 en als je het anders wilt is het alleen maar het getal wijzigen in het menu en op opslaan drukken. <br>
+This starting number of credits which displays this label can be set in the script menu. Default is set at 3000 credits. If you want to change this, this can be done in the menu.
+<br>
 <br>
 
 # Hide AlarmNextShare Button
-<b>(Instelling: Verberg "Alarmeer, deel en volgende" knop)</b>
+<b>(Setting: Hide "Alert, share and next" button)</b>
 <br>
-Deze functie verbergt de "Alarmeer, deel en volgende" knop, optioneel is in te stellen om alleen de bovenste te verwijderen. 
+This function hides the "Alert, share and next" button, optionally set to remove only the top one.
 <br><br>
-Hieronder zie je 2 afbeeldingen. De eerste is zoals het nu is en de tweede is als je het script gebruikt. Dit om het verschil te laten zien. 
+Below you see two images. The first is as it is now and the second is if you are using the script. This is to show the difference.
 <br>
 ![Without](AfbeeldingenScriptNL/Without_Hide_AlarmNextShare_Button.png)
 <br>
@@ -104,53 +105,60 @@ Hieronder zie je 2 afbeeldingen. De eerste is zoals het nu is en de tweede is al
 <br>
 
 # Hotkey
-<b>(Instelling: Sneltoetsen)</b>
+<b>(Setting: Shortcut Keys)</b>
 <br>
-Deze functie geeft sneltoetsen voor het indrukken van knoppen in het spel:
-- Opslaan van een nieuwe POI
-- Openen van een spraakaanvraag
+This feature provides keyboard shortcuts supplementing the default keyboard shortcuts already in the game:
+- Saving a new POI
+- Opening a radio call
 <br><br>
-Het lijkt mij dat opslaan van een nieuwe POI voor zichzelf spreekt, is er meer uitleg nodig, dan hoor ik het graag. <br>
-Het openen van spraakaanvragen zal ik nog iets uitleggen:
-- Op het moment dat de arrestant of patiënt vervoerd moet worden, dan opent deze functie de spraakaanvraag. 
-- Op het moment dat de bovenste spraakaanvraag een uitgebreide melding is, dan opent deze functie de uitgebreide melding en haalt deze gelijk uit je statuslijst. 
+It seems to me that saving a new POI speaks for itself, if more explanation is needed, then I would like to hear it. <br>
+I will explain something more about opening radio calls:
+- When the detainee or patient has to be transported, this function opens the radio call. 
+- When the top radio call is an extended notification, this function opens the extended notification and immediately removes it from your status list. 
 <br><br>
 
 # HideMap
-<b>(Instelling: Verberg op kaart)</b><br>
-<b>(Met dank aan LennardTFD voor de originele basis van de teamgebouwen. Ik heb toestemming om het te delen. )</b>
+<b>(Setting: Hide on map)</b><br>
+<b>(Original by LennardTFD. Permission to redistribute has been granted to me. )</b>
 <br>
-Deze functie kan verschillende onderdelen op de kaart te verbergen. 
+This feature can hide different parts of the map.
 <br><br>
-De volgende onderdelen kunnen verborgen worden:
-- Gebouwen:
-    - Alle eigen gebouwen
-    - Eigen brandweer gebouwen
-    - Eigen ambulance gebouwen
-    - Eigen politie gebouwen
-    - Alle teamgebouwen
-- Meldingen: 
-    - Alle meldingen
-    - Eigen meldingen
-    - Team meldingen
-    - Event meldingen
-- Voertuigen: (Niet beschikbaar als je de MapKit gebruikt als kaart)
-    - Alle eigen voertuigen
-    - Team voertuigen
-    - Vrije eigen voertuigen (status 4 of 6)
+The following parts can be hidden:
+- Buildings:
+    - All own buildings
+    - Own Fire Stations
+    - Own EMS Stations
+    - Own Police Stations
+    - All Alliance Buildings
+- Missions: 
+    - All Missions
+    - Personal Missions
+    - Alliance Missions
+    - Event Missions
+- Vehicles: (Only available on OpenSourceMap, not on MapKit.)
+    - All own vehicles
+    - Alliance vehicles
+    - Own available non-stationary vehicles
 <br>
 
 # Hide Missionlist
-<b>(Instelling: Verberg in meldingenlijst)</b>
+<b>(Settings: Hide from missionlist)</b>
 <br>
-Deze functie verbergt meldingen in de meldingenlijst op basis van verschillende opties:
-- Eigen meldingen:
-    - Alle eigen meldingen
-    - Betrokken eigen meldingen (waar je een voertuig heen hebt gestuurd)
-    - Gedeelde meldingen
-    - Niet gedeelde meldingen
-- Team meldingen:
-    - Alle team meldingen
-    - Betrokken team meldingen (waar je een voertuig heen hebt gestuurd)
-    - Betrokken event meldingen (waar je een voertuig heen hebt gestuurd)
+This options hides missions from the mission list based on one or more of these options:
+- Personal Missions:
+    - All personal missions
+    - Involved shared missions ( shared missions you have a vehicle enroute/on scene )
+    - Shared missions
+    - Non-Shared Missions
+- Alliance Missions:
+    - All alliance missions
+    - Involved alliance missions (missions you have a vehicle enroute/on scene)
+    - Involved event missions (missions you have a vehicle enroute/on scene)
 <br>
+
+# Toplist Rank
+<b>(Settings: Toplist rank in header)</b>
+<br>
+This function shows your place in the rankings at the top of the menu bar. If you click on it, the correct page of the rankings will also open immediately.
+<br>
+![ToplistRank](/AfbeeldingenScriptNL/Toplist.png)
